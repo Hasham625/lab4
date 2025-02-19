@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: '<https://github.com/Hasham625/lab4.git>'
+                git branch: 'main', url: 'https://github.com/Hasham625/lab4.git'
             }
         }
         stage('Build Docker Image') {
